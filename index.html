@@ -8,7 +8,12 @@
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
     />
-    <link rel="stylesheet" href="./styles/index.css" />
+    <link
+      rel="stylesheet"
+      href="./styles/index.css"
+      media="print"
+      onload="this.media='all'"
+    />
     <title>Xpence</title>
   </head>
   <body>
@@ -59,7 +64,12 @@
             </div>
           </div>
           <div class="hero__image">
-            <img src="./img/heroimg.webp" alt="heroImage" />
+            <img
+              rel="preload"
+              src="./img/heroimg.webp"
+              alt="heroImage"
+              as="image"
+            />
           </div>
         </div>
       </section>
@@ -67,7 +77,11 @@
         <div class="product__block">
           <div class="product__container">
             <div class="product__image">
-              <img src="./img/product/mainImage.webp" alt="image" />
+              <img
+                src="./img/product/mainImage.webp"
+                alt="image"
+                loading="lazy"
+              />
             </div>
           </div>
         </div>
@@ -549,7 +563,7 @@
         </div>
       </div>
     </footer>
-    <script type="module" src="./js/main.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script type="module" src="./js/main.js" defer></script>
   </body>
 </html>

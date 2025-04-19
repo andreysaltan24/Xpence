@@ -507,7 +507,7 @@ body._lock {
   align-items: center;
   gap: 1.875rem;
 }
-@media (max-width: 47.9988rem) {
+@media (max-width: 47.9988em) {
   .work__header {
     flex-direction: column;
     text-align: center;
@@ -590,6 +590,16 @@ body._lock {
   transform: translateX(-50%);
   opacity: 0;
   transition: transform 0.3s ease, opacity 0.3s ease;
+}
+@media (max-width: 62.0613em) {
+  .item-work__link {
+    inset-block-end: 2rem;
+  }
+}
+@media (max-width: 47.9988em) {
+  .item-work__link {
+    inset-block-end: 1rem;
+  }
 }
 .item-work:hover {
   box-shadow: 0 0 3.125rem 0 rgba(0, 0, 0, 0.04);

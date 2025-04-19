@@ -269,7 +269,7 @@
     display: flex;
     align-items: center;
     gap: 1.875rem;
-    @media (max-width: 47.9988rem) {
+    @media (max-width: 47.9988em) {
       flex-direction: column;
       text-align: center;
     }
@@ -361,6 +361,12 @@
     transform: translateX(-50%);
     opacity: 0;
     transition: transform 0.3s ease, opacity 0.3s ease;
+    @media (max-width: 62.0613em) {
+      inset-block-end: 2rem;
+    }
+    @media (max-width: 47.9988em) {
+      inset-block-end: 1rem;
+    }
   }
 
   &:hover {
