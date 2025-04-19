@@ -1,0 +1,21 @@
+
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 100">
+  <text x="10" y="70" font-size="60" fill="#999" font-family="Arial, sans-serif">G</text>
+  <text x="55" y="70" font-size="60" fill="#999" font-family="Arial, sans-serif">o</text>
+  <text x="100" y="70" font-size="60" fill="#999" font-family="Arial, sans-serif">o</text>
+  <text x="145" y="70" font-size="60" fill="#999" font-family="Arial, sans-serif">g</text>
+  <text x="190" y="70" font-size="60" fill="#999" font-family="Arial, sans-serif">l</text>
+  <text x="215" y="70" font-size="60" fill="#999" font-family="Arial, sans-serif">e</text>
+
+  <style>
+    text {
+      transition: fill 0.3s;
+    }
+    svg:hover text:nth-of-type(1) { fill: #4285F4; }
+    svg:hover text:nth-of-type(2) { fill: #EA4335; }
+    svg:hover text:nth-of-type(3) { fill: #FBBC05; }
+    svg:hover text:nth-of-type(4) { fill: #34A853; }
+    svg:hover text:nth-of-type(5) { fill: #4285F4; }
+    svg:hover text:nth-of-type(6) { fill: #EA4335; }
+  </style>
+</svg>

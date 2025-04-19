@@ -1,0 +1,32 @@
+@import url("https://fonts.googleapis.com/css?family=Hind+Siliguri:regular,500,600,700&display=swap");
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Hind Siliguri", sans-serif;
+  font-size: 1.125rem;
+  color: $mainColor;
+  &._lock {
+    overflow: hidden;
+  }
+}
+
+[class*="__container"] {
+  width: 90%;
+  max-width: 71.25rem;
+  padding: 0 0.9375rem;
+  margin: 0 auto;
+}
+
+[id] {
+  scroll-margin-block-start: 3.5rem;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  overflow: clip;
+  min-height: 100vh;
+}
